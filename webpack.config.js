@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "production", // 또는 "develop"
+  mode: "development",
   entry: "./src/index.tsx",
   output: {
     filename: "index.bundle.js",
